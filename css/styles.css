@@ -143,8 +143,6 @@ a {
 
 .hero-section {
   max-width: 1440px;
-  background-repeat: no-repeat;
-  background-position: center;
   background-color: var(--color-primary);
   text-align: center;
   padding-top: 188px;
@@ -156,6 +154,8 @@ a {
     ),
     url(../images/hero-office.jpg);
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .hero-title {
   font-size: 56px;
