@@ -429,6 +429,7 @@ a {
 
 .cont-footer {
   display: flex;
+  align-items: baseline;
 }
 
 .container-two {
@@ -455,6 +456,7 @@ a {
   align-items: center;
   justify-content: center;
   background-color: var(--color-brand);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-media:hover,
