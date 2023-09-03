@@ -157,6 +157,7 @@ a {
   background-repeat: no-repeat;
   background-position: center;
 }
+
 .hero-title {
   font-size: 56px;
   font-weight: 700;
@@ -425,14 +426,17 @@ a {
   letter-spacing: 0.02em;
   color: var(--color-light);
 }
+
 .cont-footer {
   display: flex;
-  .container-two {
-    padding-left: 120px;
-    align-items: baseline;
-    margin-right: 120px;
-  }
 }
+
+.container-two {
+  padding-left: 120px;
+  align-items: baseline;
+  margin-right: 120px;
+}
+
 .footer-social {
   font-size: 16px;
   font-weight: 500;
